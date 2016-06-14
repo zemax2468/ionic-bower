@@ -842,7 +842,7 @@ function($rootScope, $state, $location, $window, $timeout, $ionicViewSwitcher, $
           }
         }
 
-      } else if (forwardView && forwardView.stateId === currentStateId) {
+      } else if (false && forwardView && forwardView.stateId === currentStateId) {
         // they went to the forward one, set the forward view to no longer a forward view
         viewId = forwardView.viewId;
         historyId = forwardView.historyId;
